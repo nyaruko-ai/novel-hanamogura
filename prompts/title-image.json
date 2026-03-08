@@ -1,0 +1,21 @@
+{
+  "spec": {
+    "globalPrompt": "Create a photorealistic cinematic illustration for a modern web novel. Keep lighting, materials, anatomy, and faces grounded in live-action realism. Maintain a unified realistic visual language across all generated assets.",
+    "globalNegativePrompt": "anime, manga, cel shading, cartoon, illustration with flat shading, text, logo, watermark, collage, split panel, deformed anatomy, low detail face, extra limbs",
+    "fixedWidth": 1440,
+    "fixedHeight": 2304
+  },
+  "titleImage": {
+    "id": "title-cover",
+    "model": "gemini-3.1-flash-image-preview",
+    "outputDir": "project/assets/title",
+    "referenceImages": [
+      "project/assets/characters/hanamogura.png",
+      "project/assets/world/wind-funeral-city.webp",
+      "project/assets/episodes/scene-003-001-002.webp",
+      "project/assets/episodes/scene-004-002-003.webp"
+    ],
+    "prompt": "A final cover image for the novel Hanamogura: the flower-crowned mole traveler walking a dawn road after surviving a long forbidden pilgrimage, with distant hints of the wind-funeral city, suspended white greenhouse gardens, and a far black gate left behind. Quiet magical realism, bittersweet but hopeful, cinematic scale, centered lone traveler, emphasis on lived responsibility rather than triumph.",
+    "negativePrompt": "generic fantasy battle pose, mascot cuteness, crowded cast montage, visible title text, direct horror monster, overly cute storybook tone"
+  }
+}

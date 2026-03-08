@@ -1,0 +1,32 @@
+{
+  "spec": {
+    "globalPrompt": "Create a photorealistic magical-realist full-body character portrait for a literary web novel. Preserve silhouette clarity, tactile fur and fabric detail, realistic lighting, and a grounded live-action visual language. The result should feel mysterious and emotionally credible rather than cute or comedic.",
+    "globalNegativePrompt": "anime, manga, cel shading, cartoon, mascot, plush toy, chibi, text, logo, watermark, deformed anatomy, extra limbs, duplicate body parts, cropped head, doll-like face",
+    "fixedWidth": 1080,
+    "fixedHeight": 1920,
+    "outputDir": "project/assets/characters",
+    "defaultModel": "gemini-3.1-flash-image-preview"
+  },
+  "characters": [
+    {
+      "id": "hanamogura",
+      "name": "花モグラ",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "A small upright mole traveler, realistic black-brown mole fur, subtle human intelligence in the eyes, a single living white-gold flower blooming from the crown of the head, weathered short travel cloak, tiny satchel, water flask, damp cloth wrapped to protect the flower stem, standing on open grassland at dawn under a wide sky, lonely and dignified, magical realism, full body, cinematic composition.",
+      "negativePrompt": "fully human body, oversized cartoon eyes, exaggerated smile, cute mascot proportions, multiple flowers, armor, weapon-heavy fantasy hero styling",
+      "sourceRefs": [
+        "project/02_characters.md"
+      ]
+    },
+    {
+      "id": "kazane",
+      "name": "カザネ",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "A wind-funeral city warden in grounded magical realism, slender Japanese woman in her thirties, weathered tan skin, calm sharp eyes, long ash-white layered robe shaped for strong wind, strips of prayer cloth and tiny bells braided into dark hair, carrying a slim staff with small bells and a pouch of incense wood, standing on a suspended wooden walkway in a vertical city of cloths and towers, solemn and elegant, full body, cinematic composition.",
+      "negativePrompt": "anime styling, priestess fantasy glamour, battle armor, excessive jewelry, cheerful idol expression",
+      "sourceRefs": [
+        "project/02_characters.md"
+      ]
+    }
+  ]
+}

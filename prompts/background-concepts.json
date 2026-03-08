@@ -1,0 +1,33 @@
+{
+  "spec": {
+    "globalPrompt": "Create a photorealistic magical-realist environment image for a literary web novel. Emphasize atmosphere, weather, believable materials, and a grounded yet uncanny live-action visual language.",
+    "globalNegativePrompt": "anime, manga, cel shading, cartoon, text, logo, watermark, obvious UI labels, character close-up, deformed architecture, low detail",
+    "fixedWidth": 1440,
+    "fixedHeight": 2304,
+    "outputDir": "project/assets/world",
+    "defaultModel": "gemini-3.1-flash-image-preview"
+  },
+  "backgrounds": [
+    {
+      "id": "surface-road-dawn",
+      "name": "地上街道の夜明け",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "A vast dawn road across dry grassland where old underground entrances have been sealed with stone and roots, huge sky, cold morning light, traces of long travel, melancholic magical realism, no people in close-up.",
+      "negativePrompt": "busy traffic, modern vehicles, city skyline, bright cheerful tourism poster"
+    },
+    {
+      "id": "wind-funeral-city",
+      "name": "風葬街サエ",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "A vertical city built without underground spaces, wooden towers, suspended walkways, prayer cloths and small bells moving in constant wind, funerary elegance, dry atmosphere, white and weathered wood palette, cinematic magical realism.",
+      "negativePrompt": "crowded festival, neon cyberpunk, combat scene, visible text signage"
+    },
+    {
+      "id": "rootless-sky-garden",
+      "name": "根のない空中庭園",
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "A sky garden above clouds with white greenhouse structures on giant branches, hanging bridges, suspended flower beds with pale glowing blossoms, sacred, quiet, cinematic magical realism.",
+      "negativePrompt": "cute fantasy fairy garden, saturated rainbow colors, castle throne room, visible characters"
+    }
+  ]
+}

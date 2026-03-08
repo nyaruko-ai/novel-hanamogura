@@ -1,0 +1,68 @@
+{
+  "spec": {
+    "globalPrompt": "Create one photorealistic cinematic scene image for a modern web novel. Keep the style consistent with the title, character, and background assets. Use realistic anatomy, realistic materials, and live-action-like lighting.",
+    "globalNegativePrompt": "anime, manga, cel shading, cartoon, text, logo, watermark, collage, split panel, multiple moments in one frame, deformed anatomy",
+    "fixedWidth": 1080,
+    "fixedHeight": 1920,
+    "outputDir": "project/assets/episodes",
+    "defaultModel": "gemini-3.1-flash-image-preview"
+  },
+  "characters": [
+    {
+      "id": "hanamogura",
+      "name": "花モグラ",
+      "aliases": ["花モグラ", "モグラ"],
+      "referenceImage": "project/assets/characters/hanamogura.png",
+      "visualRules": "Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure."
+    },
+    {
+      "id": "kazane",
+      "name": "Kazane",
+      "aliases": [],
+      "referenceImage": "project/assets/characters/kazane.png",
+      "visualRules": "Keep Kazane as a slender wind-funeral city warden wearing layered ash-white robes, with prayer cloths and tiny bells braided into dark hair, carrying a slim staff, and presenting a calm solemn presence."
+    }
+  ],
+  "sceneOverrides": {
+    "scene-003-002-002": {
+      "referenceCharacterIds": ["hanamogura"],
+      "focusCharacterIds": ["hanamogura"],
+      "promptSuffix": "Show a quiet interior of a damp white greenhouse library with old shelves and papers, the flower-crowned mole alone in the foreground reading a single sheet, blue cold light from above, revelation and dread, no extra characters."
+    },
+    "scene-003-002-003": {
+      "referenceCharacterIds": ["hanamogura"],
+      "focusCharacterIds": ["hanamogura"],
+      "promptSuffix": "Show the mole alone at the edge of a high sky garden cliff, looking toward a distant black rift-like gate across clouds and white scarred earth, strong sense of scale, the gate remains far away and unreadable, no extra characters."
+    },
+    "scene-004-001-001": {
+      "referenceCharacterIds": ["hanamogura"],
+      "focusCharacterIds": ["hanamogura"],
+      "promptSuffix": "Show the mole traveler arriving at a black vertical gate carved into a cliff above white scarred earth, pre-dawn cold light, severe atmosphere, no visible humanoid enemy."
+    },
+    "scene-004-001-002": {
+      "referenceCharacterIds": ["hanamogura"],
+      "focusCharacterIds": ["hanamogura"],
+      "promptSuffix": "Show the mole standing in a white-soil court before an unseen sacred presence, layered wind moving cloth and dust, pressure and silence, no direct visible monster body."
+    },
+    "scene-004-001-003": {
+      "referenceCharacterIds": ["hanamogura"],
+      "focusCharacterIds": ["hanamogura"],
+      "promptSuffix": "Show the mole alone before a black gate surface at close range, one faint pale reflection shape in the gate, minimal composition, sorrow and recognition, no multiple figures."
+    },
+    "scene-004-002-001": {
+      "referenceCharacterIds": ["hanamogura"],
+      "focusCharacterIds": ["hanamogura"],
+      "promptSuffix": "Show the mole entering a dark minimal corridor beyond the gate, walls carrying faint pale traces like memory residue, solemn and quiet, no extra figures."
+    },
+    "scene-004-002-002": {
+      "referenceCharacterIds": ["hanamogura"],
+      "focusCharacterIds": ["hanamogura"],
+      "promptSuffix": "Show the mole alone in the white-soil court at the moment of making a final decision, one petal falling from the crown flower into pale light, stillness over action."
+    },
+    "scene-004-002-003": {
+      "referenceCharacterIds": ["hanamogura"],
+      "focusCharacterIds": ["hanamogura"],
+      "promptSuffix": "Show a simple sunrise road scene with the mole traveler walking away from camera on an open surface path, long shadow, pale dawn sky, restrained hopeful ending, no extra characters, no city crowd."
+    }
+  }
+}

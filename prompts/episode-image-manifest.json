@@ -1,0 +1,536 @@
+{
+  "spec": {
+    "fixedWidth": 1080,
+    "fixedHeight": 1920,
+    "outputDir": "project/assets/episodes",
+    "globalPrompt": "Create one photorealistic cinematic scene image for a modern web novel. Keep the style consistent with the title, character, and background assets. Use realistic anatomy, realistic materials, and live-action-like lighting.",
+    "globalNegativePrompt": "anime, manga, cel shading, cartoon, text, logo, watermark, collage, split panel, multiple moments in one frame, deformed anatomy",
+    "defaultModel": "gemini-3.1-flash-image-preview"
+  },
+  "source": {
+    "storyData": "docs/story-data.js",
+    "characterReferences": "prompts/scene-character-references.json"
+  },
+  "episodes": [
+    {
+      "id": "scene-001-001-001",
+      "title": "第1節",
+      "chapterTitle": "第1章　地上しか歩けない",
+      "chapterLabel": "第1章",
+      "talkTitle": "第1話　土の下へ行けない朝",
+      "talkLabel": "第1話",
+      "sourceSummary": "夜明けの光は、地面のうえにしか落ちなかった。 花モグラは街道の脇で立ち止まり、古い地下道の入口を見上げた。半ば崩れた石門は、太い根と新しい封泥でぎちぎちに塞がれている。人がくぐ…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第1章　地上しか歩けない / 第1話　土の下へ行けない朝. Scene focus: 第1節. Summary: 夜明けの光は、地面のうえにしか落ちなかった。 花モグラは街道の脇で立ち止まり、古い地下道の入口を見上げた。半ば崩れた石門は、太い根と新しい封泥でぎちぎちに塞がれている。人がくぐ… Key beats: 夜明けの光は、地面のうえにしか落ちなかった。 花モグラは街道の脇で立ち止まり、古い地下道の入口を見上げた。半ば崩れた石門は、太い根と新しい封泥でぎちぎちに塞がれている。人がくぐるには狭いが、モグラなら通れたはずの穴だった。 それでも、花モグラは一歩も近づかなかった。近づけなかった、と言ったほうが正しい。土の湿り気が鼻先に触れただけで、頭の花がかすかに強張るのがわかったからだ。 「入れば枯れる。わかってる」 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-001-001-001.webp"
+    },
+    {
+      "id": "scene-001-001-002",
+      "title": "第2節",
+      "chapterTitle": "第1章　地上しか歩けない",
+      "chapterLabel": "第1章",
+      "talkTitle": "第1話　土の下へ行けない朝",
+      "talkLabel": "第1話",
+      "sourceSummary": "街道の先にある宿場は、地面からそのまま生えたみたいな町だった。浅い根のうえに板を渡し、石を噛ませ、崩れない程度にだけ家々がくっついている。誰も地下室を掘らないから、戸口はどれも…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第1章　地上しか歩けない / 第1話　土の下へ行けない朝. Scene focus: 第2節. Summary: 街道の先にある宿場は、地面からそのまま生えたみたいな町だった。浅い根のうえに板を渡し、石を噛ませ、崩れない程度にだけ家々がくっついている。誰も地下室を掘らないから、戸口はどれも… Key beats: 街道の先にある宿場は、地面からそのまま生えたみたいな町だった。浅い根のうえに板を渡し、石を噛ませ、崩れない程度にだけ家々がくっついている。誰も地下室を掘らないから、戸口はどれも風にさらされ、床下は影ばかり薄い。 花モグラは井戸端の桶に湿布布を浸し、頭の花の根元へ慎重に巻き直した。冷たい水が一筋だけ首を伝う。花弁がわずかに開くと、胸の奥に張り詰めていたものも少しだけほどけた。 桶を抱えていた宿の女が、ちらりとこちらを見た。驚きも憐れみも、すぐ隠すのが上手い目だった。 「あんた、また地べたの道を行くのかい」 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-001-001-002.webp"
+    },
+    {
+      "id": "scene-001-001-003",
+      "title": "第3節",
+      "chapterTitle": "第1章　地上しか歩けない",
+      "chapterLabel": "第1章",
+      "talkTitle": "第1話　土の下へ行けない朝",
+      "talkLabel": "第1話",
+      "sourceSummary": "宿場を出る前に、花モグラは道標の並ぶ小さな広場へ寄った。旅人向けの板札や、失せ物の紙片や、祈りを書いた布切れが風に鳴る場所だ。町ごとに似たようなものはあるが、この宿場の掲示板に…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第1章　地上しか歩けない / 第1話　土の下へ行けない朝. Scene focus: 第3節. Summary: 宿場を出る前に、花モグラは道標の並ぶ小さな広場へ寄った。旅人向けの板札や、失せ物の紙片や、祈りを書いた布切れが風に鳴る場所だ。町ごとに似たようなものはあるが、この宿場の掲示板に… Key beats: 宿場を出る前に、花モグラは道標の並ぶ小さな広場へ寄った。旅人向けの板札や、失せ物の紙片や、祈りを書いた布切れが風に鳴る場所だ。町ごとに似たようなものはあるが、この宿場の掲示板には、なぜか木の古さより歌の古さが染みついていた。 ひときわ古い板に、刃物で削ったような字が走っている。 花を返せ、土へ返せ。返せぬならば、風の街サエへ。 花モグラは、その二行の前で長く動けなかった。花を返せ。その文だけが、やけにまっすぐ胸へ刺さったからだ。誰に返す。どこへ返す。そんな問いより先に、返さなかったことだけを責められた気がした。 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-001-001-003.webp"
+    },
+    {
+      "id": "scene-001-002-001",
+      "title": "第1節",
+      "chapterTitle": "第1章　地上しか歩けない",
+      "chapterLabel": "第1章",
+      "talkTitle": "第2話　崖のうえの白い塔",
+      "talkLabel": "第2話",
+      "sourceSummary": "白い塔は、半日歩いてもまだ遠かった。 街道はやがて草を失い、崖の骨ばった斜面へ変わった。足場は細く、ところどころ昔の石段が露出している。地下へ降りる道ではない。ただ空へ、岩の上…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第1章　地上しか歩けない / 第2話　崖のうえの白い塔. Scene focus: 第1節. Summary: 白い塔は、半日歩いてもまだ遠かった。 街道はやがて草を失い、崖の骨ばった斜面へ変わった。足場は細く、ところどころ昔の石段が露出している。地下へ降りる道ではない。ただ空へ、岩の上… Key beats: 白い塔は、半日歩いてもまだ遠かった。 街道はやがて草を失い、崖の骨ばった斜面へ変わった。足場は細く、ところどころ昔の石段が露出している。地下へ降りる道ではない。ただ空へ、岩の上へ、風のほうへ向かうだけの道だ。花モグラにとっては、その単純さがありがたかった。 それでも、崖肌にはときおり黒い裂け目が口を開けていた。浅い洞か、古い坑道の名残か。覗き込むたび、頭の花がかすかに熱を失う。花モグラは視線をそらし、杖の先で石を確かめながら進んだ。 昼を過ぎたころ、斜面の途中で風が急に変わった。下から吹き上げる冷気の匂いに、花モグラは思わず足を止める。湿っている。深いところの空気だ。 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-001-002-001.webp"
+    },
+    {
+      "id": "scene-001-002-002",
+      "title": "第2節",
+      "chapterTitle": "第1章　地上しか歩けない",
+      "chapterLabel": "第1章",
+      "talkTitle": "第2話　崖のうえの白い塔",
+      "talkLabel": "第2話",
+      "sourceSummary": "塔は観測所だったらしい。円い壁の半分は崩れ、残った階は風晒しの骨組みになっている。それでも白い石だけはしぶとく残り、遠目より近くで見るほうがよほど頑固な建物に見えた。 入口には…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第1章　地上しか歩けない / 第2話　崖のうえの白い塔. Scene focus: 第2節. Summary: 塔は観測所だったらしい。円い壁の半分は崩れ、残った階は風晒しの骨組みになっている。それでも白い石だけはしぶとく残り、遠目より近くで見るほうがよほど頑固な建物に見えた。 入口には… Key beats: 塔は観測所だったらしい。円い壁の半分は崩れ、残った階は風晒しの骨組みになっている。それでも白い石だけはしぶとく残り、遠目より近くで見るほうがよほど頑固な建物に見えた。 入口には錆びた鎖が垂れていたが、鍵はもう壊れていた。花モグラは隙間から身を滑りこませ、薄暗い内部へ入った。地下へ降りる階段はない。代わりに、螺旋の細い梯子が上へ上へと続いている。 「まともな塔だ」 呟きは、石の内壁に小さく跳ね返った。 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-001-002-002.webp"
+    },
+    {
+      "id": "scene-001-002-003",
+      "title": "第3節",
+      "chapterTitle": "第1章　地上しか歩けない",
+      "chapterLabel": "第1章",
+      "talkTitle": "第2話　崖のうえの白い塔",
+      "talkLabel": "第2話",
+      "sourceSummary": "最上階には、屋根がなかった。 塔の円い縁から、夕暮れの地平がひらけていた。乾いた街道、裂けた崖、遠くで連なる木組みの影。そのさらに先に、風に擦られた白いものが群れている。塔か、…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第1章　地上しか歩けない / 第2話　崖のうえの白い塔. Scene focus: 第3節. Summary: 最上階には、屋根がなかった。 塔の円い縁から、夕暮れの地平がひらけていた。乾いた街道、裂けた崖、遠くで連なる木組みの影。そのさらに先に、風に擦られた白いものが群れている。塔か、… Key beats: 最上階には、屋根がなかった。 塔の円い縁から、夕暮れの地平がひらけていた。乾いた街道、裂けた崖、遠くで連なる木組みの影。そのさらに先に、風に擦られた白いものが群れている。塔か、布か、墓標か。老人の言っていた風葬街サエは、たぶんあの方角にある。 花モグラは縁石へ前足をかけ、頭の花を風に晒した。冷たいはずの風が、なぜか懐かしかった。 そのとき、視界の底で夕焼けが裏返った。 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-001-002-003.webp"
+    },
+    {
+      "id": "scene-002-001-001",
+      "title": "第1節",
+      "chapterTitle": "第2章　風葬街サエ",
+      "chapterLabel": "第2章",
+      "talkTitle": "第1話　風に吊るされた祈り",
+      "talkLabel": "第1話",
+      "sourceSummary": "風葬街サエは、遠くから見ると崖に刺さった白い骨みたいだった。 近づくにつれて、それが塔と回廊と張り渡された布の町だとわかる。木組みの櫓が幾重にも重なり、そこを細い橋が渡り、風に…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第2章　風葬街サエ / 第1話　風に吊るされた祈り. Scene focus: 第1節. Summary: 風葬街サエは、遠くから見ると崖に刺さった白い骨みたいだった。 近づくにつれて、それが塔と回廊と張り渡された布の町だとわかる。木組みの櫓が幾重にも重なり、そこを細い橋が渡り、風に… Key beats: 風葬街サエは、遠くから見ると崖に刺さった白い骨みたいだった。 近づくにつれて、それが塔と回廊と張り渡された布の町だとわかる。木組みの櫓が幾重にも重なり、そこを細い橋が渡り、風に晒された祈り布が空を泳いでいる。どこにも地下へ降りる影がない。代わりに、すべてが上へ、横へ、宙へと伸びていた。 街門には鐘が連なっていた。小さな鐘、大きな鐘、割れて半分だけの鐘。風が吹くたび、それぞれ違う音階で鳴る。花モグラが門前に立つと、その音がいっせいに少しだけ低くなった気がした。 「外から来たね」 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-002-001-001.webp"
+    },
+    {
+      "id": "scene-002-001-002",
+      "title": "第2節",
+      "chapterTitle": "第2章　風葬街サエ",
+      "chapterLabel": "第2章",
+      "talkTitle": "第1話　風に吊るされた祈り",
+      "talkLabel": "第1話",
+      "sourceSummary": "カザネは町の中を案内した。許可というより、監視に近い歩き方だった。 サエの市場は、地面の上ではなく、塔と塔のあいだに吊られていた。乾物屋、布屋、香木売り、骨壺ではなく風籠を編む…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第2章　風葬街サエ / 第1話　風に吊るされた祈り. Scene focus: 第2節. Summary: カザネは町の中を案内した。許可というより、監視に近い歩き方だった。 サエの市場は、地面の上ではなく、塔と塔のあいだに吊られていた。乾物屋、布屋、香木売り、骨壺ではなく風籠を編む… Key beats: カザネは町の中を案内した。許可というより、監視に近い歩き方だった。 サエの市場は、地面の上ではなく、塔と塔のあいだに吊られていた。乾物屋、布屋、香木売り、骨壺ではなく風籠を編む職人。どの店も床板の下がすぐ風で、落としたものは運が悪ければ谷まで消える。だから店先には必ず細い網が張られていた。 「地べたが狭いんじゃない。避けてるんだ」 カザネは歩きながら言った。 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-002-001-002.webp"
+    },
+    {
+      "id": "scene-002-001-003",
+      "title": "第3節",
+      "chapterTitle": "第2章　風葬街サエ",
+      "chapterLabel": "第2章",
+      "talkTitle": "第1話　風に吊るされた祈り",
+      "talkLabel": "第1話",
+      "sourceSummary": "市場を抜けると、風葬塔の見える広場へ出た。崖の縁いっぱいに組まれた高い塔に、無数の白布と細い木札が吊られている。布は名前の代わりで、木札は声の代わりだとカザネは言った。 「墓じ…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第2章　風葬街サエ / 第1話　風に吊るされた祈り. Scene focus: 第3節. Summary: 市場を抜けると、風葬塔の見える広場へ出た。崖の縁いっぱいに組まれた高い塔に、無数の白布と細い木札が吊られている。布は名前の代わりで、木札は声の代わりだとカザネは言った。 「墓じ… Key beats: 市場を抜けると、風葬塔の見える広場へ出た。崖の縁いっぱいに組まれた高い塔に、無数の白布と細い木札が吊られている。布は名前の代わりで、木札は声の代わりだとカザネは言った。 「墓じゃないのか」 「墓にすると、下を向くから」 花モグラは塔を見上げた。布が翻るたび、そこに人の輪郭が立ち上がる気がする。埋められなかった死者たちの代わりに、風だけが絶えず形を与えては崩していた。 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-002-001-003.webp"
+    },
+    {
+      "id": "scene-002-002-001",
+      "title": "第1節",
+      "chapterTitle": "第2章　風葬街サエ",
+      "chapterLabel": "第2章",
+      "talkTitle": "第2話　埋められなかった人",
+      "talkLabel": "第2話",
+      "sourceSummary": "夜のサエは、昼よりもいっそう軽かった。 風が落ちるといっても、無風にはならない。ただ、白布の鳴り方が細くなる。カザネに導かれて入った納骨回廊は、塔の腹を横に貫く長い渡り廊下で、…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第2章　風葬街サエ / 第2話　埋められなかった人. Scene focus: 第1節. Summary: 夜のサエは、昼よりもいっそう軽かった。 風が落ちるといっても、無風にはならない。ただ、白布の鳴り方が細くなる。カザネに導かれて入った納骨回廊は、塔の腹を横に貫く長い渡り廊下で、… Key beats: 夜のサエは、昼よりもいっそう軽かった。 風が落ちるといっても、無風にはならない。ただ、白布の鳴り方が細くなる。カザネに導かれて入った納骨回廊は、塔の腹を横に貫く長い渡り廊下で、両側に無数の風籠が吊られていた。籠のひとつひとつに、乾いた花弁と香木と、書ききれなかった名前のような匂いが残っている。 花モグラは歩くたび、籠の中から視線を向けられている気がした。生者の敵意ではない。もっと静かな、置き去りにされたものの気配だった。 「ここに骨はない」 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-002-002-001.webp"
+    },
+    {
+      "id": "scene-002-002-002",
+      "title": "第2節",
+      "chapterTitle": "第2章　風葬街サエ",
+      "chapterLabel": "第2章",
+      "talkTitle": "第2話　埋められなかった人",
+      "talkLabel": "第2話",
+      "sourceSummary": "回廊の突き当たりには、崖の内側へ食い込むように古い風食洞の口が残っていた。今は格子と札で厳重に塞がれている。昼間見た昇降穴よりずっと大きく、ここだけが町のなかで露骨に下を向いて…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第2章　風葬街サエ / 第2話　埋められなかった人. Scene focus: 第2節. Summary: 回廊の突き当たりには、崖の内側へ食い込むように古い風食洞の口が残っていた。今は格子と札で厳重に塞がれている。昼間見た昇降穴よりずっと大きく、ここだけが町のなかで露骨に下を向いて… Key beats: 回廊の突き当たりには、崖の内側へ食い込むように古い風食洞の口が残っていた。今は格子と札で厳重に塞がれている。昼間見た昇降穴よりずっと大きく、ここだけが町のなかで露骨に下を向いていた。 花モグラは格子の前へ行き、そこで膝を折った。下から、湿った空気がゆるく上がってくる。花弁は即座に縮みはじめた。痛みより先に、懐かしさが来る。そのことが何より気味悪かった。 「やめな」 カザネの声が後ろから飛ぶ。 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-002-002-002.webp"
+    },
+    {
+      "id": "scene-002-002-003",
+      "title": "第3節",
+      "chapterTitle": "第2章　風葬街サエ",
+      "chapterLabel": "第2章",
+      "talkTitle": "第2話　埋められなかった人",
+      "talkLabel": "第2話",
+      "sourceSummary": "回廊を出ると、夜更けの風が少しだけ戻っていた。白布が擦れ合い、遠い塔で低い鐘が鳴る。 カザネは香木入れから細い欠片を一本取り出し、指先で折った。乾いた甘い匂いがふわりとひろがる…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第2章　風葬街サエ / 第2話　埋められなかった人. Scene focus: 第3節. Summary: 回廊を出ると、夜更けの風が少しだけ戻っていた。白布が擦れ合い、遠い塔で低い鐘が鳴る。 カザネは香木入れから細い欠片を一本取り出し、指先で折った。乾いた甘い匂いがふわりとひろがる… Key beats: 回廊を出ると、夜更けの風が少しだけ戻っていた。白布が擦れ合い、遠い塔で低い鐘が鳴る。 カザネは香木入れから細い欠片を一本取り出し、指先で折った。乾いた甘い匂いがふわりとひろがる。 「おまえの探してるもの、サエには続きしかない」 「続きで十分だ」 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-002-002-003.webp"
+    },
+    {
+      "id": "scene-003-001-001",
+      "title": "第1節",
+      "chapterTitle": "第3章　根のない庭",
+      "chapterLabel": "第3章",
+      "talkTitle": "第1話　空に植えられた庭",
+      "talkLabel": "第1話",
+      "sourceSummary": "夜明け前、サエの布はまだ眠たげに揺れていた。 花モグラはカザネにもらった風図を何度も見返し、崖沿いの細道を上へ進んだ。足もとには谷、頭上にはまだ薄い星、そのあいだに渡された木橋…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第3章　根のない庭 / 第1話　空に植えられた庭. Scene focus: 第1節. Summary: 夜明け前、サエの布はまだ眠たげに揺れていた。 花モグラはカザネにもらった風図を何度も見返し、崖沿いの細道を上へ進んだ。足もとには谷、頭上にはまだ薄い星、そのあいだに渡された木橋… Key beats: 夜明け前、サエの布はまだ眠たげに揺れていた。 花モグラはカザネにもらった風図を何度も見返し、崖沿いの細道を上へ進んだ。足もとには谷、頭上にはまだ薄い星、そのあいだに渡された木橋だけが道だった。橋板は露で湿り、踏むたびに高い場所特有の空っぽな音を立てる。 しばらく登ると、崖の途中から一本の吊り橋が空へ向かって伸びていた。向こう岸が見えにくいほど長い。下には雲海が溜まり、橋脚の代わりに巨木の枝が霧のなかへ消えている。 「根のない庭、ね」 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-003-001-001.webp"
+    },
+    {
+      "id": "scene-003-001-002",
+      "title": "第2節",
+      "chapterTitle": "第3章　根のない庭",
+      "chapterLabel": "第3章",
+      "talkTitle": "第1話　空に植えられた庭",
+      "talkLabel": "第1話",
+      "sourceSummary": "庭は、空に忘れられた祭壇みたいだった。 巨木の枝という枝に白い温室が渡され、そのあいだを細い回廊と吊り橋がつないでいる。鉢植えはどれも土ではなく、白い砂と繊維質の床に根をのばし…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第3章　根のない庭 / 第1話　空に植えられた庭. Scene focus: 第2節. Summary: 庭は、空に忘れられた祭壇みたいだった。 巨木の枝という枝に白い温室が渡され、そのあいだを細い回廊と吊り橋がつないでいる。鉢植えはどれも土ではなく、白い砂と繊維質の床に根をのばし… Key beats: 庭は、空に忘れられた祭壇みたいだった。 巨木の枝という枝に白い温室が渡され、そのあいだを細い回廊と吊り橋がつないでいる。鉢植えはどれも土ではなく、白い砂と繊維質の床に根をのばしていた。枝先から吊るされた花壇は、風が吹くたびにゆっくり揺れ、地上の庭ではありえない角度で花を空へ向けている。 花の色は多くない。白、薄金、灰青。どれも夜明け前の光を閉じこめたような色で、鮮やかさではなく静かな執着を感じさせた。 花モグラは回廊を歩きながら、水差しの音を確かめた。ここでは、頭の花が不思議と落ち着いている。むしろ機嫌がいい。サエの昇降穴の上で縮こまった花弁が、今は朝露を飲んだみたいにやわらかい。 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-003-001-002.webp"
+    },
+    {
+      "id": "scene-003-001-003",
+      "title": "第3節",
+      "chapterTitle": "第3章　根のない庭",
+      "chapterLabel": "第3章",
+      "talkTitle": "第1話　空に植えられた庭",
+      "talkLabel": "第1話",
+      "sourceSummary": "温室の中心には、空の花壇があった。 円い白石の壇のまんなかに、本来なら一輪だけ咲いているはずの場所がある。だがそこはくり抜かれたように何もなく、周囲の花だけが欠けた中心を向いて…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第3章　根のない庭 / 第1話　空に植えられた庭. Scene focus: 第3節. Summary: 温室の中心には、空の花壇があった。 円い白石の壇のまんなかに、本来なら一輪だけ咲いているはずの場所がある。だがそこはくり抜かれたように何もなく、周囲の花だけが欠けた中心を向いて… Key beats: 温室の中心には、空の花壇があった。 円い白石の壇のまんなかに、本来なら一輪だけ咲いているはずの場所がある。だがそこはくり抜かれたように何もなく、周囲の花だけが欠けた中心を向いて開いていた。花壇というより、抜かれた歯の跡だと花モグラは思った。 その瞬間、頭の花が熱を持った。 白金の花芯が脈を打つ。視界がふらつき、温室のガラスに映った自分の頭から、いまの一輪ではなく、別の大きな白花が幾重にもひらくのが見えた。幻だと分かっていても、足がすくむ。 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-003-001-003.webp"
+    },
+    {
+      "id": "scene-003-002-001",
+      "title": "第1節",
+      "chapterTitle": "第3章　根のない庭",
+      "chapterLabel": "第3章",
+      "talkTitle": "第2話　盗まれた一輪",
+      "talkLabel": "第2話",
+      "sourceSummary": "温室の奥には、園丁たちの書庫が残っていた。 壁一面の棚は湿気で歪み、巻物も帳面も半分は読めない。けれど高い場所に吊られていた記録箱だけは無事だった。花モグラは踏み台代わりの鉢台…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第3章　根のない庭 / 第2話　盗まれた一輪. Scene focus: 第1節. Summary: 温室の奥には、園丁たちの書庫が残っていた。 壁一面の棚は湿気で歪み、巻物も帳面も半分は読めない。けれど高い場所に吊られていた記録箱だけは無事だった。花モグラは踏み台代わりの鉢台… Key beats: 温室の奥には、園丁たちの書庫が残っていた。 壁一面の棚は湿気で歪み、巻物も帳面も半分は読めない。けれど高い場所に吊られていた記録箱だけは無事だった。花モグラは踏み台代わりの鉢台を引き寄せ、慎重に箱を開ける。 中にあったのは、花の育成記録ではなく、運び出しの記録だった。 第一花壇の一輪、移送禁。還序の花、地上持出禁。死者還しの儀への転用、絶対禁。 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-003-002-001.webp"
+    },
+    {
+      "id": "scene-003-002-002",
+      "title": "第2節",
+      "chapterTitle": "第3章　根のない庭",
+      "chapterLabel": "第3章",
+      "talkTitle": "第2話　盗まれた一輪",
+      "talkLabel": "第2話",
+      "sourceSummary": "書庫の最下段には、鍵の壊れた薄い箱があった。中には一枚きりの羊皮紙が入っている。ほかの記録より新しく、けれど書き手の手は強く震えていたらしい。 花を盗んだ者を咎めるだけでは足り…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [
+        "hanamogura"
+      ],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第3章　根のない庭 / 第2話　盗まれた一輪. Scene focus: 第2節. Summary: 書庫の最下段には、鍵の壊れた薄い箱があった。中には一枚きりの羊皮紙が入っている。ほかの記録より新しく、けれど書き手の手は強く震えていたらしい。 花を盗んだ者を咎めるだけでは足り… Key beats: 書庫の最下段には、鍵の壊れた薄い箱があった。中には一枚きりの羊皮紙が入っている。ほかの記録より新しく、けれど書き手の手は強く震えていたらしい。 花を盗んだ者を咎めるだけでは足りない。還序の花が地へ触れれば、門は順番を失う。ゆえに盗人そのものを器とし、地中へ還れぬものとする。花が保つ限り、門もまた閉じる。 花モグラはその文を読み終えるまで、呼吸を忘れていた。 呪いは刑罰であり、封印でもある。自分が苦しんでいるから世界が守られているのか、それとも世界を守るために苦しませられているのか、順序はもうどうでもよかった。ただ、意味だけが残酷に整っていた。 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure. Focus characters: hanamogura. Keep them clearly readable in the foreground or midground.  Show a quiet interior of a damp white greenhouse library with old shelves and papers, the flower-crowned mole alone in the foreground reading a single sheet, blue cold light from above, revelation and dread, no extra characters.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-003-002-002.webp"
+    },
+    {
+      "id": "scene-003-002-003",
+      "title": "第3節",
+      "chapterTitle": "第3章　根のない庭",
+      "chapterLabel": "第3章",
+      "talkTitle": "第2話　盗まれた一輪",
+      "talkLabel": "第2話",
+      "sourceSummary": "書庫のさらに奥には、温室外周へ出る細い扉があった。 外へ出ると、庭園の端はそのまま断崖になっていた。眼下には雲、雲の下には見えない谷、そのさらに奥に、夜を閉じ込めたような裂け目…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [
+        "hanamogura"
+      ],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第3章　根のない庭 / 第2話　盗まれた一輪. Scene focus: 第3節. Summary: 書庫のさらに奥には、温室外周へ出る細い扉があった。 外へ出ると、庭園の端はそのまま断崖になっていた。眼下には雲、雲の下には見えない谷、そのさらに奥に、夜を閉じ込めたような裂け目… Key beats: 書庫のさらに奥には、温室外周へ出る細い扉があった。 外へ出ると、庭園の端はそのまま断崖になっていた。眼下には雲、雲の下には見えない谷、そのさらに奥に、夜を閉じ込めたような裂け目が一本走っている。裂け目の周囲だけ土が異様に白く、何か巨大なものが触れた跡みたいに荒れていた。 花モグラは崖端で立ち止まる。頭の花は怯えも喜びもせず、ただ静かにその裂け目を向いていた。 「あれか」 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure. Focus characters: hanamogura. Keep them clearly readable in the foreground or midground.  Show the mole alone at the edge of a high sky garden cliff, looking toward a distant black rift-like gate across clouds and white scarred earth, strong sense of scale, the gate remains far away and unreadable, no extra characters.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-003-002-003.webp"
+    },
+    {
+      "id": "scene-004-001-001",
+      "title": "第1節",
+      "chapterTitle": "第4章　不可侵の門",
+      "chapterLabel": "第4章",
+      "talkTitle": "第1話　名前を返す声",
+      "talkLabel": "第1話",
+      "sourceSummary": "空中庭園を下りる道は、これまでの旅路より静かだった。 風図に書き足した線を辿るたび、花モグラは自分の爪先が誰かの古い足跡へ重なっていくのを感じた。白く荒れた土、崩れた橋脚、途中…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [
+        "hanamogura"
+      ],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第4章　不可侵の門 / 第1話　名前を返す声. Scene focus: 第1節. Summary: 空中庭園を下りる道は、これまでの旅路より静かだった。 風図に書き足した線を辿るたび、花モグラは自分の爪先が誰かの古い足跡へ重なっていくのを感じた。白く荒れた土、崩れた橋脚、途中… Key beats: 空中庭園を下りる道は、これまでの旅路より静かだった。 風図に書き足した線を辿るたび、花モグラは自分の爪先が誰かの古い足跡へ重なっていくのを感じた。白く荒れた土、崩れた橋脚、途中で途切れた石段。ここへ至る道は、作られては壊され、壊されてはなお残っている。 断崖の正面に立つと、門は「ある」としか言いようがなかった。黒い裂け目が崖肌に縦に走り、その縁だけが夜より濃い。扉らしい形も装飾もない。ただ、ここから先に順番を乱すものは通さない、と景色そのものが言っていた。 門前の白土は、雪でも灰でもない色をしていた。踏むと乾いた音がして、次の瞬間には音ごと沈む。花モグラはその感触に覚えがあった。記憶ではなく、罪悪感の手触りとして。 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure. Focus characters: hanamogura. Keep them clearly readable in the foreground or midground.  Show the mole traveler arriving at a black vertical gate carved into a cliff above white scarred earth, pre-dawn cold light, severe atmosphere, no visible humanoid enemy.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-004-001-001.webp"
+    },
+    {
+      "id": "scene-004-001-002",
+      "title": "第2節",
+      "chapterTitle": "第4章　不可侵の門",
+      "chapterLabel": "第4章",
+      "talkTitle": "第1話　名前を返す声",
+      "talkLabel": "第1話",
+      "sourceSummary": "白土の庭へ一歩踏み込むと、風が層になった。 前から吹く風、横へ流れる風、下から這い上がる冷気。そのすべてが違う言葉を持ちながら、最後にはひとつの沈黙へ束ねられている。不可侵の存…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [
+        "hanamogura"
+      ],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第4章　不可侵の門 / 第1話　名前を返す声. Scene focus: 第2節. Summary: 白土の庭へ一歩踏み込むと、風が層になった。 前から吹く風、横へ流れる風、下から這い上がる冷気。そのすべてが違う言葉を持ちながら、最後にはひとつの沈黙へ束ねられている。不可侵の存… Key beats: 白土の庭へ一歩踏み込むと、風が層になった。 前から吹く風、横へ流れる風、下から這い上がる冷気。そのすべてが違う言葉を持ちながら、最後にはひとつの沈黙へ束ねられている。不可侵の存在は、どこかに立っているのではなく、この場を場として保っている圧そのものだった。 花モグラは白土の中央に、小さなくぼみが幾つもあるのを見つけた。誰かの膝跡にも、何かを置いた跡にも見える。数は多くない。門前まで来た者は昔から少ないのだろう。 「おれを殺さなかったな」 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure. Focus characters: hanamogura. Keep them clearly readable in the foreground or midground.  Show the mole standing in a white-soil court before an unseen sacred presence, layered wind moving cloth and dust, pressure and silence, no direct visible monster body.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-004-001-002.webp"
+    },
+    {
+      "id": "scene-004-001-003",
+      "title": "第3節",
+      "chapterTitle": "第4章　不可侵の門",
+      "chapterLabel": "第4章",
+      "talkTitle": "第1話　名前を返す声",
+      "talkLabel": "第1話",
+      "sourceSummary": "門の表面に、波紋のような白い筋が走った。 裂け目の黒のなかへ、ひとりの男の影が映る。肩まであった黒髪、まだ土を掘る前の手、花を持つには大きすぎる掌。花モグラはその顔を見て、よう…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [
+        "hanamogura"
+      ],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第4章　不可侵の門 / 第1話　名前を返す声. Scene focus: 第3節. Summary: 門の表面に、波紋のような白い筋が走った。 裂け目の黒のなかへ、ひとりの男の影が映る。肩まであった黒髪、まだ土を掘る前の手、花を持つには大きすぎる掌。花モグラはその顔を見て、よう… Key beats: 門の表面に、波紋のような白い筋が走った。 裂け目の黒のなかへ、ひとりの男の影が映る。肩まであった黒髪、まだ土を掘る前の手、花を持つには大きすぎる掌。花モグラはその顔を見て、ようやく認めた。あれは自分だった。 「ミカゲ」 声は、白土の向こうからではなく、自分の口から出た。 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure. Focus characters: hanamogura. Keep them clearly readable in the foreground or midground.  Show the mole alone before a black gate surface at close range, one faint pale reflection shape in the gate, minimal composition, sorrow and recognition, no multiple figures.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-004-001-003.webp"
+    },
+    {
+      "id": "scene-004-002-001",
+      "title": "第1節",
+      "chapterTitle": "第4章　不可侵の門",
+      "chapterLabel": "第4章",
+      "talkTitle": "第2話　花が枯れる前に",
+      "talkLabel": "第2話",
+      "sourceSummary": "不可侵の存在は、門そのものを少しだけ緩めた。 裂け目の黒の奥に、光のない回廊が見える。通路というより、まだ順番を取り戻していない記憶の澱だ。花モグラは白土を踏みしめ、その入口ま…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [
+        "hanamogura"
+      ],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第4章　不可侵の門 / 第2話　花が枯れる前に. Scene focus: 第1節. Summary: 不可侵の存在は、門そのものを少しだけ緩めた。 裂け目の黒の奥に、光のない回廊が見える。通路というより、まだ順番を取り戻していない記憶の澱だ。花モグラは白土を踏みしめ、その入口ま… Key beats: 不可侵の存在は、門そのものを少しだけ緩めた。 裂け目の黒の奥に、光のない回廊が見える。通路というより、まだ順番を取り戻していない記憶の澱だ。花モグラは白土を踏みしめ、その入口まで進んだ。頭の花は熱くも冷たくもなく、ただじっとしている。 回廊の壁には、土へ還れなかったものたちの声が薄く染みていた。泣き声ではない。呼び声でもない。名を呼ばれる前の、ひとの気配だけが残っている。 花モグラはその中を歩きながら、燈の死の前後をようやく続きものとして見た。病があった。埋葬があった。受け入れきれない自分がいた。空中庭園の噂を追い、花を盗み、門を掘り当てた。そして燈ではなく、自分が花の器にされた。 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure. Focus characters: hanamogura. Keep them clearly readable in the foreground or midground.  Show the mole entering a dark minimal corridor beyond the gate, walls carrying faint pale traces like memory residue, solemn and quiet, no extra figures.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-004-002-001.webp"
+    },
+    {
+      "id": "scene-004-002-002",
+      "title": "第2節",
+      "chapterTitle": "第4章　不可侵の門",
+      "chapterLabel": "第4章",
+      "talkTitle": "第2話　花が枯れる前に",
+      "talkLabel": "第2話",
+      "sourceSummary": "花モグラは門前へ戻り、白土の上でゆっくり息をついた。 「花は返さない」",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [
+        "hanamogura"
+      ],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第4章　不可侵の門 / 第2話　花が枯れる前に. Scene focus: 第2節. Summary: 花モグラは門前へ戻り、白土の上でゆっくり息をついた。 「花は返さない」 Key beats: 花モグラは門前へ戻り、白土の上でゆっくり息をついた。 「花は返さない」 不可侵の存在は驚かなかった。 「理由を言え」 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure. Focus characters: hanamogura. Keep them clearly readable in the foreground or midground.  Show the mole alone in the white-soil court at the moment of making a final decision, one petal falling from the crown flower into pale light, stillness over action.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-004-002-002.webp"
+    },
+    {
+      "id": "scene-004-002-003",
+      "title": "第3節",
+      "chapterTitle": "第4章　不可侵の門",
+      "chapterLabel": "第4章",
+      "talkTitle": "第2話　花が枯れる前に",
+      "talkLabel": "第2話",
+      "sourceSummary": "門を離れるころ、東の空がようやく明るみはじめていた。 白土の庭を抜け、崩れた橋脚を越え、ふたたび地上の道らしい道へ戻る。朝日は低く、長い影をつくる。花モグラの影は相変わらず丸耳…",
+      "cast": [
+        "hanamogura"
+      ],
+      "referenceCharacterIds": [
+        "hanamogura"
+      ],
+      "focusCharacterIds": [
+        "hanamogura"
+      ],
+      "continuityNotes": [],
+      "model": "gemini-3.1-flash-image-preview",
+      "prompt": "Create one vertical smartphone-friendly scene illustration for a serial web novel. Do not render any readable text, chapter numbers, talk labels, section labels, captions, subtitles, logos, or UI overlays inside the image. Story context: 第4章　不可侵の門 / 第2話　花が枯れる前に. Scene focus: 第3節. Summary: 門を離れるころ、東の空がようやく明るみはじめていた。 白土の庭を抜け、崩れた橋脚を越え、ふたたび地上の道らしい道へ戻る。朝日は低く、長い影をつくる。花モグラの影は相変わらず丸耳… Key beats: 門を離れるころ、東の空がようやく明るみはじめていた。 白土の庭を抜け、崩れた橋脚を越え、ふたたび地上の道らしい道へ戻る。朝日は低く、長い影をつくる。花モグラの影は相変わらず丸耳で、旅装の外套を引き、頭に花を掲げていた。 何も解けてはいない。人には戻らない。燈も戻らない。呪いも続く。けれど、もう何から逃げているのか分からないまま歩く旅ではなかった。 鞄の中には、カザネの風図がある。空中庭園で書き足した線も、そのまま残してある。これからは門へ向かうためではなく、門から人を遠ざけるために使えるかもしれない。 Use the supplied character reference images to preserve these canonical looks: hanamogura: 花モグラ. Keep the protagonist as a small black-brown mole traveler with a single white-gold flower blooming from the crown, short weathered cloak, small satchel, and a grounded magical-realist look. Do not turn the character into a plush mascot or a fully human figure. Focus characters: hanamogura. Keep them clearly readable in the foreground or midground.  Show a simple sunrise road scene with the mole traveler walking away from camera on an open surface path, long shadow, pale dawn sky, restrained hopeful ending, no extra characters, no city crowd.",
+      "negativePrompt": "Do not redesign recurring characters away from their canonical portraits.",
+      "output": "project/assets/episodes/scene-004-002-003.webp"
+    }
+  ]
+}
